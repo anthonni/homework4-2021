@@ -86,7 +86,8 @@ border-top: 2px solid #000000;
 }
 
 .rowhead{
-  border: 2px solid #000000;
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
 }
 
 
@@ -111,7 +112,7 @@ tbody tr:last-child th:first-child{
   border-radius: 0px 0px 50px 0px;
 }
 tr:nth-child(odd){
-  background: rgba(0,0,0,0.5);
+  background-color: transparent;
 }
 tr:nth-child(even){
   background-color: #D1D1D1;
