@@ -33,6 +33,7 @@ body{
   font-family: 'Andika', sans-serif;
   background-color: #DDDDDD;
   background-image: url('../images/pigeon-background.JPEG');
+  background-repeat: no-repeat;
   /*Req 1*/
 }
 
@@ -67,13 +68,11 @@ input:focus{
   border-color: #417243;
 }
 
-
 td{
 text-align: center;
 padding: 10px;
 border-top: 2px solid #000000;
 }
-
 
 .colhead{
   color: #FFFFFF;
@@ -83,13 +82,13 @@ border-top: 2px solid #000000;
   background-color: #7e0825;
   text-align: center;
   text-transform: uppercase;
+  vertical-align: middle;
 }
 
 .rowhead{
   border-top: 2px solid #000000;
   border-right: 2px solid #000000;
 }
-
 
 table{
     border: 5px solid #000000;
@@ -103,28 +102,36 @@ You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{
   border-radius: 50px 0px 0px 0px;
 }
+
 thead tr:last-child th:last-child{
   border-radius: 0px 50px 0px 0px ;
 }
+
 tbody tr:last-child th:first-child{
   border-radius: 0px 0px 0px 50px;
-}tbody tr:last-child td:last-child{
+}
+
+tbody tr:last-child td:last-child{
   border-radius: 0px 0px 50px 0px;
 }
+
 tr:nth-child(odd){
   background-color: transparent;
 }
+
 tr:nth-child(even){
   background-color: #D1D1D1;
 }
+
 tr:hover{
   background-color: rgba(126, 8, 37, 0.25);
 }
+
 footer{
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-
+  position: static;
 }
