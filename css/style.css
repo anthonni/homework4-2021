@@ -32,7 +32,7 @@ body{
   background-position: center;
   font-family: 'Andika', sans-serif;
   background-color: #DDDDDD;
-  background-image: url('../images/pigeon-background.JPEG');
+  background-image: url(../images/pigeon-background.JPEG);
   background-repeat: no-repeat;
   /*Req 1*/
 }
@@ -133,5 +133,9 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: sticky;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
 }
